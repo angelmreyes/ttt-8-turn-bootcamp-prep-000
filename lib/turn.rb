@@ -29,10 +29,7 @@ def position_taken?(board, index)
   end
 end
 
-def turn
-  # Code your CLI Here
-  puts "Welcome to Tic Tac Toe!"
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def turn(board)
   puts "Where would you like to go?"
   input = gets.strip
   index = input_to_index(input)
