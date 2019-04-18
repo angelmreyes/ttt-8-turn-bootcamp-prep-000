@@ -42,7 +42,7 @@ def turn
     display_board(board)
   else
     until valid_move?(board, index)
-      puts "Where would you like to go?"
+      puts "Please enter a valid move:"
       input = gets.strip
       index = input_to_index(input)
     end
