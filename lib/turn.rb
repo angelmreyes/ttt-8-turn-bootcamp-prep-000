@@ -30,15 +30,6 @@ def position_taken?(board, index)
 end
 
 def turn
-  # ask for input
-  # get input
-  # convert input to index
-  # if valid_move?(board, index)
-  #   make the move for index
-  #   show the board
-  # else
-  #   ask for input again until you get a valid input
-  # end
   # Code your CLI Here
   puts "Welcome to Tic Tac Toe!"
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
