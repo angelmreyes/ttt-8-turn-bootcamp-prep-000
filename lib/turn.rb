@@ -39,4 +39,17 @@ def turn
   # else
   #   ask for input again until you get a valid input
   # end
+  # Code your CLI Here
+  puts "Welcome to Tic Tac Toe!"
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts "Where would you like to go?"
+  input = gets.strip
+  index = input_to_index(input)
+
+  if valid_move?(board, index)
+    move(board, index)
+    display_board(board)
+  else
+
+  end
 end
