@@ -33,7 +33,7 @@ def turn
   # ask for input
   # get input
   # convert input to index
-  # if index is valid
+  # if valid_move?(board, index)
   #   make the move for index
   #   show the board
   # else
