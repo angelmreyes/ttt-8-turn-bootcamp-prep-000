@@ -30,7 +30,7 @@ def position_taken?(board, index)
 end
 
 def turn(board)
-  puts "Where would you like to go?"
+  puts "Where would you like to go? Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
 
