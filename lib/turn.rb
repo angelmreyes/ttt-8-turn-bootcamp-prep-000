@@ -12,9 +12,7 @@ def input_to_index(user_input)
 end
 
 def move(board, position, char = "X")
-  if valid_move?(board, position)
-    board[position] = char
-  end
+  board[position] = char
 end
 
 # code your #valid_move? method here
